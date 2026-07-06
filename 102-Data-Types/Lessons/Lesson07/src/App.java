@@ -1,0 +1,9 @@
+public class App { 
+    public static void greet(String name) {
+        System.out.println("Hello, " + name);
+
+    }
+    public static void main(String[] args)  {
+        greet("hazem") ;
+    }
+}
