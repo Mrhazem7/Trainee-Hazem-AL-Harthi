@@ -67,6 +67,7 @@ $ ./organize.sh test_area
 
 ## 📁 هيكل المشروع
 
+
 ```
 .
 ├── organize.sh     # السكربت الرئيسي
