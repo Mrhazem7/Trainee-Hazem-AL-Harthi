@@ -1,0 +1,2 @@
+USE company;
+SHOW TABLES ;

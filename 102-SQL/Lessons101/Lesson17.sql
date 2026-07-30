@@ -1,0 +1,4 @@
+USE company;
+INSERT INTO Employee
+VALUES (3,"NORA",4000,1500),(4,"NASSER",6500,2500);
+SELECT * FROM Employee;

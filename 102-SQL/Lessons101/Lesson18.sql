@@ -1,0 +1,4 @@
+SELECT 1 AND 1 ;
+SELECT 5 + 5 ;
+SELECT 13 > 2 ;
+

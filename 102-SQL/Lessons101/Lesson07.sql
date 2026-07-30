@@ -1,0 +1,3 @@
+USE company ;
+ALTER TABLE Users
+ADD PRIMARY KEY (ID) ;

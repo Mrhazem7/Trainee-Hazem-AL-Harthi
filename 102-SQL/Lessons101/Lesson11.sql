@@ -1,0 +1,3 @@
+USE company;
+ALTER TABLE Employee
+MODIFY COLUMN id CHAR(225);
