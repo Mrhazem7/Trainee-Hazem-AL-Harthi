@@ -46,6 +46,7 @@ chmod +x organize.sh
 
 ### مثال فعلي (تم اختباره)
 
+
 ```
 $ ./organize.sh test_area
 [2026-07-30 03:17:00] بدء الفحص عن الملفات داخل: test_area
