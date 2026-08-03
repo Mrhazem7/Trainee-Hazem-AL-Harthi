@@ -2,6 +2,9 @@
 
 صفحة ويب شخصية لـ "حازم"، مطور ألعاب وتطبيقات، مبنية بـ HTML و CSS فقط.
 
+## المعاينة الحية
+🔗 [https://mrhazem7.github.io/Trainee-Hazem-AL-Harthi/Final-HTML-CSS-project/](https://mrhazem7.github.io/Trainee-Hazem-AL-Harthi/Final-HTML-CSS-project/)
+
 ## المحتوى
 - **الرئيسية:** مقدمة سريعة عن التخصص.
 - **نبذة:** التعريف بحازم وأبرز مهاراته (HTML, CSS, SQL, C++, Blender, Unreal Engine 5).
