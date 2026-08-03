@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حازم — مطور ألعاب وتطبيقات</title>
+  <meta name="description" content="صفحة تعريفية شخصية لحازم، مطور ألعاب وتطبيقات، تعرض نبذة عن المسار والمهارات (HTML, CSS, SQL) وطرق التواصل.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">تخطَّ إلى المحتوى الرئيسي</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-bracket">&lt;</span>حازم<span class="logo-bracket">/&gt;</span>
+      </a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <ul>
+          <li><a href="#hero">الرئيسية</a></li>
+          <li><a href="#about">نبذة</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="dot" aria-hidden="true"></span>
+            متاح للعمل الحر حاليًا
+          </p>
+          <h1 id="hero-title">
+            أصمم ألعابًا وتطبيقات
+            <span class="highlight">بأفكار واضحة</span>
+          </h1>
+          <p class="hero-lead">
+            مطور ألعاب وتطبيقات مبتدئ، أبرمج منطق الألعاب بلغة C++ وأطوّرها
+            عبر محرك Unreal Engine 5، وأصمم عناصرها ثلاثية الأبعاد
+            باستخدام Blender، إلى جانب بناء واجهات الويب الخاصة بمشاريعي
+            بصفحات HTML دلالية وتنسيقات CSS متجاوبة، مع أساس بيانات
+            منظّم عبر SQL.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">تواصل معي</a>
+            <a href="#about" class="btn btn-ghost">اقرأ نبذتي</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-window-bar">
+              <span class="tab active">index.html</span>
+              <span class="tab">style.css</span>
+            </div>
+            <pre class="code-window-body"><code><span class="c-tag">&lt;section</span> <span class="c-attr">class</span>=<span class="c-str">"hero"</span><span class="c-tag">&gt;</span>
+  <span class="c-tag">&lt;h1&gt;</span>مرحبًا، أنا حازم<span class="c-tag">&lt;/h1&gt;</span>
+  <span class="c-tag">&lt;p&gt;</span>مطوّر ألعاب وتطبيقات<span class="c-tag">&lt;/p&gt;</span>
+<span class="c-tag">&lt;/section&gt;</span>
+
+<span class="c-comment">/* style.css */</span>
+<span class="c-sel">.hero</span> {
+  <span class="c-prop">display</span>: <span class="c-val">grid</span>;
+  <span class="c-prop">gap</span>: <span class="c-val">2rem</span>;
+}</code></pre>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="section-eyebrow">نبذة</p>
+        <h2 id="about-title">من أنا، وماذا أتقن</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              اسمي حازم، مهتم بتطوير الألعاب والتطبيقات، وبدأت رحلتي
+              بتعلّم أساسيات HTML و CSS لبناء واجهات مشاريعي، وSQL
+              لتنظيم بياناتها، وصولًا إلى برمجة منطق الألعاب بلغة C++
+              وتطويرها عبر محرك Unreal Engine 5، مع تصميم عناصرها
+              ثلاثية الأبعاد باستخدام Blender.
+            </p>
+            <p>
+              أستمتع بتحويل فكرة بسيطة إلى منتج حقيقي يعمل بسلاسة،
+              وأحرص دائمًا على أن يكون الكود مرتّبًا وواضحًا وقابلًا
+              للقراءة من أي مطوّر آخر بسهولة.
+            </p>
+          </div>
+
+          <ul class="skills-list">
+            <li class="skill-card">
+              <span class="skill-tag">HTML</span>
+              <p>بناء هيكل دلالي (Semantic) صحيح باستخدام العناصر المناسبة لكل محتوى.</p>
+            </li>
+            <li class="skill-card">
+              <span class="skill-tag">CSS</span>
+              <p>تنسيق متجاوب (Responsive) عبر Flexbox و Grid لجميع أحجام الشاشات.</p>
+            </li>
+            <li class="skill-card">
+              <span class="skill-tag">SQL</span>
+              <p>تصميم واستعلام قواعد البيانات لتخزين بيانات الألعاب والتطبيقات.</p>
+            </li>
+            <li class="skill-card">
+              <span class="skill-tag">C++</span>
+              <p>برمجة منطق الألعاب وإدارة الأداء بكفاءة داخل محرّكات الألعاب.</p>
+            </li>
+            <li class="skill-card">
+              <span class="skill-tag">Blender</span>
+              <p>نمذجة وتجسيم عناصر ثلاثية الأبعاد (3D) لاستخدامها في الألعاب والتطبيقات.</p>
+            </li>
+            <li class="skill-card">
+              <span class="skill-tag">Unreal Engine </span>
+              <p>بناء وتطوير مراحل الألعاب وربط منطق اللعب داخل محرك Unreal Engine 5.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== القسم الثالث: تواصل ===================== -->
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <p class="section-eyebrow section-eyebrow-invert">تواصل</p>
+        <h2 id="contact-title">لنبدأ مشروعك القادم</h2>
+        <p class="contact-lead">
+          سواء كان لديك مشروع صغير أو مجرد سؤال تقني، يسعدني سماعه.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:sshhffttmm@gmail.com" class="contact-link">
+            <span class="contact-link-label">البريد الإلكتروني</span>
+            <span class="contact-link-value">sshhffttmm@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> حازم. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

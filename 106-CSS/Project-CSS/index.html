@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>دورة تعلم CSS</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Arial, sans-serif; }
+    
+    body {
+        min-height: 100vh;
+        background-color: #0b1f3a;
+        background-image: linear-gradient(120deg, #0b1f3a, #123a6b, #1a5aa8, #123a6b, #0b1f3a);
+        background-size: 400% 400%;
+        animation: moveBg 12s ease infinite;
+        color: #eaf1fb;
+    }
+    @keyframes moveBg {
+        0%   { background-position: 0% 50%; }
+        50%  { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+    
+    nav {
+        position: sticky; top: 0;
+        display: flex; justify-content: space-between; align-items: center;
+        background-color: rgba(11, 31, 58, 0.85);
+        padding: 16px 40px;
+        margin: 0 0 60px 0;
+        border-bottom: 1px solid #2a5aa0;
+    }
+    nav .logo { font-weight: bold; font-size: 20px; }
+    nav ul { display: flex; gap: 26px; }
+    nav ul li a { font-size: 15px; color: #cfe0f7; transition: color 0.2s ease; }
+    nav ul li a:hover { color: #5aa9ff; }
+    
+    .hero { max-width: 800px; margin: 0 auto; padding: 40px 24px 80px 24px; text-align: center; }
+    h1 {
+        font-family: Georgia, 'Times New Roman', serif;
+        text-align: center;
+        color: #ffffff;
+        position: relative;
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    h1::after {
+        content: '';
+        position: absolute;
+        bottom: -12px; right: 50%;
+        transform: translateX(50%);
+        width: 80px; height: 4px;
+        background-color: #5aa9ff;
+        border-radius: 4px;
+    }
+    .hero p { color: #cfe0f7; font-size: 17px; line-height: 1.8; margin-bottom: 34px; }
+    
+    .btn {
+        display: inline-block;
+        border-radius: 8px;
+        color: #0b1f3a;
+        background: #5aa9ff;
+        position: relative; top: 0;
+        padding: 14px 32px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: background 0.2s ease, top 0.2s ease;
+    }
+    .btn:hover { background: #7cc0ff; top: -3px; }
+    .cards { max-width: 900px; margin: 0 auto 60px auto; padding: 0 24px; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .card { background-color: rgba(255,255,255,0.06); border: 1px solid #2a5aa0; border-radius: 10px; padding: 20px; width: 220px; }
+    .card h3 { color: #5aa9ff; margin-bottom: 10px; font-size: 16px; }
+    .card p { color: #cfe0f7; font-size: 14px; line-height: 1.7; }
+    footer { text-align: center; padding: 30px; color: #7a97bd; font-size: 13px; }
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo">دورة CSS</div>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">عن الدورة</a></li>
+            <li><a href="#">انضم الآن</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>تعلم CSS من الصفر لاحتراف التصميم</h1>
+        <p>دورة عملية تاخدك خطوة بخطوة من أساسيات التنسيق لحد ما تصمم صفحة كاملة بنفسك بثقة.</p>
+        <a href="#" class="btn">سجّل الآن</a>
+    </section>
+    <section class="cards">
+        <div class="card"><h3>تطبيقي</h3><p>كل درس بينتهي بتمرين حقيقي على مشروع واحد.</p></div>
+        <div class="card"><h3>مبسّط</h3><p>شرح بالعربي بأمثلة واضحة من غير تعقيد.</p></div>
+        <div class="card"><h3>تدريجي</h3><p>من الأساسيات لحد المفاهيم المتقدمة.</p></div>
+    </section>
+    <footer>© دورة تعلّم CSS</footer>
+</body>
+</html>

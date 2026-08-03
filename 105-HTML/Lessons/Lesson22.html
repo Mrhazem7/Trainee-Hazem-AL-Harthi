@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> دوره html </title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>     
+    </head>
+    <body dir="rtl">
+        <h1> HTML دورة</h1><!--title-->
+        <img src="html.png" height="250" width="280">
+        <h2> وصف الدورة</h2><!---sub titel-->
+        <p><!---description-->
+           
+            <p>هي طريقة لكتابة وميكلة صفحات الويب. لغة برمجية بالمعنى الفعلي بل هي لغة وصفية  <b>HTML</b>  ولا تعتبر أي أنها تستخدم لوصف الصفحة وتوزيع وترتيب محتواها. من نصوص وروابط وصور ومقاطع فيديو وما إلى ذلك.</p>
+            
+            <p>وهي المكون الرئيسي لأي موقع ويب.</p>
+
+            <p>ما يسمى بالوسوم أو <strong>HTML</strong>  تستخدم <i>Tags</i> ، وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها. فمنها ما يقوم بعرض العنوان ومنها ما يقوم بعرض النصوص ما يقوم بعرض الصور أو الروابط أو مقاطع الفيديو وهكذا. نفهم هذه الرموز أو الوسوم ويعرضها بالشكل المحدد والمطلوب.</p>
+
+            <p>مواعيد المحاضرات يوميا: </p><br>
+            من الساعة
+            8:00<sub>am</sub>
+            وحتى الساعة
+            11:00<sub>am</sub>
+
+            <p><b> المستويات لهذه الدورة: </b></p>
+            1<sub>st</sub> level: اساسيات html <br>
+            2<sub>nd</sub> level: مفاهيم متقدمة في html
+            
+
+        </p><hr>
+
+        <h2>اهداف هذه الدورة</h2>
+        <ol>
+            <li>التعرف على مفهوم html</li>
+            <li>تعلم كل tag و الغرض من استخدامه</li>
+            <li>طرق اضافه النصوص, الفديوهات, وغيرها من المحتويات المعتادة في صفحات الويب</li>
+            
+        </ol>
+
+        <h2>متطلبات هذه الدورة</h2>
+        <ul>
+            <li>متصفح (سفاري , قوقل كروم)</li>
+            <li>محرر نصوص</li>
+        </ul>
+        <p>للمرجع قم بالضغط
+            <a href="https://dev.w3.org/html5/spec-LC">هنا</a>
+        </p>
+
+        <video width="700" height="500" controls>
+            <source src="مقطع_ختامي.mp4" type="video/mp4">
+            عذرًا، لا يمكن عرض هذا الفيديو
+        </video>
+        <br>
+        <audio controls>
+            <source src="sparkle.mp3" type="audio/mp3">
+        </audio>
+
+        <table>
+            <caption>جدول اماكن المحاضرات</caption>
+            <tr>
+                <th>اليوم</th>
+                <th>المكان</th>
+            </tr>
+            <tr>
+                <td>الاحد و الاثنين</td>
+                <td>Class A</td>
+
+            </tr>
+            <tr>
+                <td>الثلاثاء و الاربعاء</td>
+                <td>Class B</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">الخميس
+                عن بعد</td>
+            </tr>    
+        </table>
+        <hr>
+        <h2>نموذج الانضمام للدورة</h2>
+        <form>
+            <label for="name">اسم المستخدم:</label>
+            <input type="text" id="name">
+            <P>الجنس:</P>
+            <input type="radio" id="male" name="gender">
+            <label for="male">ذكر</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">انثى</label>
+            <P>من اين سمعت عن HTML?</P>
+            <input type="checkbox" id="friend" name="friend">
+            <label for="friend">صديق</label><br>
+            <input type="checkbox" id="books" name="books">
+            <label for="books">الكتب</label><br>
+            <input type="checkbox" id="social media" name="social media">
+            <label for="social media">مواقع التواصل الاجتماعي</label>
+        </form>
+
+        <label for="city">اختر مدينتك</label>
+        <select id="city" name="city">
+            <option value="Riyadh">الرياض</option>
+            <option value="Jeddah">جدة</option>
+            <option value="Dammam">الدمام</option>
+            <option value="Taif">الطائف</option>
+        </select>
+
+
+       
+    </body>
+</html>
