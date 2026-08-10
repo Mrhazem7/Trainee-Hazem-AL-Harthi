@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find & Replace</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tahoma', 'Segoe UI', sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 15px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            margin-bottom: 25px;
+            text-align: right;
+            font-family: inherit;
+        }
+
+        input[type="text"]::placeholder {
+            color: #aaaaaa;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #1a73c7;
+        }
+
+        button {
+            width: 100%;
+            padding: 16px;
+            background-color: #1a73c7;
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 25px;
+            font-family: inherit;
+        }
+
+        button:hover {
+            background-color: #155a9c;
+        }
+
+        #text {
+            border: 1px solid #dddddd;
+            border-radius: 4px;
+            padding: 20px;
+            font-size: 15px;
+            line-height: 2;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <label for="search">الكلمة المراد البحث عنها</label>
+        <input type="text" id="search" placeholder="الكلمة المطلوبة...">
+
+        <label for="replace">الكلمة البديلة</label>
+        <input type="text" id="replace" placeholder="الكلمة البديلة...">
+
+        <button onclick="replace()">استبدل</button>
+
+        <p id="text">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملا.دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+        </p>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

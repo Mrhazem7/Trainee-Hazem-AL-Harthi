@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h3>Clicks: <span id="clicks">0</span></h3>
+    <button type="button" onClick="add()">+</button>
+
+    <script>
+        let clicks = 0;
+        function add() {
+            clicks++;
+            document.getElementById("clicks").innerText = clicks
+        };
+    </script>
+</body>
+
+</html>

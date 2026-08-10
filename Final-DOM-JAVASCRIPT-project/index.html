@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آلة حاسبة | Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="calc-shell" id="calc-shell">
+    <div class="brand-row">
+      <span class="brand-name">CALC / MDL-01</span>
+      <span class="brand-dot" id="mode-dot" title="الوضع الحالي"></span>
+    </div>
+
+    <section class="screen" aria-live="polite">
+      <div class="screen-history" id="history">0</div>
+      <div class="screen-main" id="display">0</div>
+    </section>
+
+    <section class="history-panel" id="history-panel">
+      <div class="history-panel__head">
+        <span>السجل</span>
+        <button type="button" id="clear-history-btn" class="link-btn">مسح السجل</button>
+      </div>
+      <ul id="history-list" class="history-list">
+        <li class="history-empty">لا توجد عمليات بعد</li>
+      </ul>
+    </section>
+
+    <section class="keypad" id="keypad">
+      <button class="key key--util" data-action="clear">C</button>
+      <button class="key key--util" data-action="delete">⌫</button>
+      <button class="key key--util" data-action="toggle-history">📜</button>
+      <button class="key key--op" data-op="/">÷</button>
+
+      <button class="key key--num" data-num="7">7</button>
+      <button class="key key--num" data-num="8">8</button>
+      <button class="key key--num" data-num="9">9</button>
+      <button class="key key--op" data-op="*">×</button>
+
+      <button class="key key--num" data-num="4">4</button>
+      <button class="key key--num" data-num="5">5</button>
+      <button class="key key--num" data-num="6">6</button>
+      <button class="key key--op" data-op="-">−</button>
+
+      <button class="key key--num" data-num="1">1</button>
+      <button class="key key--num" data-num="2">2</button>
+      <button class="key key--num" data-num="3">3</button>
+      <button class="key key--op" data-op="+">+</button>
+
+      <button class="key key--num key--zero" data-num="0">0</button>
+      <button class="key key--num" data-action="decimal">.</button>
+      <button class="key key--op key--equals" data-action="equals">=</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
