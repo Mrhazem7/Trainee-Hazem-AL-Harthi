@@ -5,3 +5,5 @@ let student = {
 
 let {name, nickname = 'unknown'} = student
 console.log(name, nickname)
+
+
