@@ -1,0 +1,49 @@
+[
+    {
+        "timestamp": "2026-08-18 20:20:50",
+        "source_directory": "/tmp/example_demo",
+        "moved_files": [
+            {
+                "original_path": "/tmp/example_demo/فاتورة.pdf",
+                "new_path": "/tmp/example_demo/مستندات/فاتورة.pdf",
+                "category": "مستندات"
+            },
+            {
+                "original_path": "/tmp/example_demo/ملف_غريب.xyz",
+                "new_path": "/tmp/example_demo/أخرى/ملف_غريب.xyz",
+                "category": "أخرى"
+            },
+            {
+                "original_path": "/tmp/example_demo/أغنية.mp3",
+                "new_path": "/tmp/example_demo/صوتيات/أغنية.mp3",
+                "category": "صوتيات"
+            },
+            {
+                "original_path": "/tmp/example_demo/إجازة.jpg",
+                "new_path": "/tmp/example_demo/صور/إجازة.jpg",
+                "category": "صور"
+            },
+            {
+                "original_path": "/tmp/example_demo/تقرير.docx",
+                "new_path": "/tmp/example_demo/مستندات/تقرير.docx",
+                "category": "مستندات"
+            },
+            {
+                "original_path": "/tmp/example_demo/برنامج.py",
+                "new_path": "/tmp/example_demo/أكواد/برنامج.py",
+                "category": "أكواد"
+            },
+            {
+                "original_path": "/tmp/example_demo/نسخة_احتياطية.zip",
+                "new_path": "/tmp/example_demo/أرشيف/نسخة_احتياطية.zip",
+                "category": "أرشيف"
+            },
+            {
+                "original_path": "/tmp/example_demo/فيلم.mp4",
+                "new_path": "/tmp/example_demo/فيديوهات/فيلم.mp4",
+                "category": "فيديوهات"
+            }
+        ],
+        "skipped_files": []
+    }
+]
