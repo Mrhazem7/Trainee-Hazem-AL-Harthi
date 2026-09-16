@@ -26,3 +26,4 @@ dotnet run
 
 - `Program.cs` — يحتوي على class `Item` (تمثيل عنصر المخزون) وclass `Program` (منطق البرنامج الرئيسي: القائمة، الحلقات، والدوال).
 - `InventoryApp.csproj` — ملف المشروع.
+
